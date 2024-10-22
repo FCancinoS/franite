@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<title>Best Fortnite Maps</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; 
+    overflow-x: hidden; 
+    
+  }
+  html{
+    scroll-snap-type: y mandatory;
+
+    
+  }
+  section {
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    scroll-snap-align: start;
+    scroll-snap-stop:always;
+    position: relative; /* Para posicionar las flechas */
+  }
+  @keyframes recorrerColor {
+    0% { background-position: 0 0; } 
+    100% { background-position: 100% 0; } 
+  }
+
+  .textoDorado {
+    background-image: linear-gradient(to left, gold, gold); 
+    background-size: 200% auto; 
+    background-clip: text; 
+    color: transparent; 
+    -webkit-background-clip: text; 
+    animation: recorrerColor 10s infinite linear; 
+  }
+  .pkg {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+    /* Estilos de las flechas */
+    .nav-arrow {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: white;
+    clip-path: polygon(100% 50%, 0 100%, 0 0); /* Triángulo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+  }
+
+  .nav-arrowLeft {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: white;
+    clip-path: polygon(100% 50%, 0 100%, 0 0); /* Triángulo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 150px;
+    transform: rotate(180deg); /* Girar para flecha izquierda */
+  }
+  /* Estilos específicos para cada sección */
+  .sectionb { background-color: #181818; color: white; }
+  .sectionsw { background-color: #e0e0e0; display: flex; }
+  .sectiono { background-color: #ff7a14; display: flex; }
+  .sectionbl { background-color: #0176d7; }
+  .sectionbeige { background-color: rgb(255, 153, 28); }
+  .sectiong { background-color: rgb(0, 129, 101); }
+  .sectionbrown { background-color: rgb(67, 32, 13); }
+  .sectionpur { background-color: rgb(170, 75, 179); }
+  .sectiongray { background-color: rgb(79, 79, 79); }
+  .raleway-titles { font-family: "Raleway", sans-serif; font-weight: 500; }
+  .MapImg { max-width: 98%; max-height: 95%; margin: auto; margin: 20px; }
+  #DiscImg, #TikImg { max-width: 50%; }
+  .mage, .cont {
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+  }
+  .titel { text-align: center; width: 90%; font-family: "Raleway";}
+  .lirel { text-align: justify; width: 90%; }
+  .content-style { font-size: medium; }
+  .NSA { text-decoration: none; color: inherit; transition: color 0.3s; }
+  .NSA:hover { color: goldenrod; }
+  .mcode { text-align: center; font-size: 25px; }
+  .parrafo { font-size: 90%; }
+  .light { color: white; }
+  .images { display: flex; justify-content: center; }
+  .purple-over:hover { color: purple; }
+  #section14 { display: flex; flex-direction: column; }
+  .aimg { text-align: center; }
+  .subtitle{
+        font-size: 1.5em;
+    }
+  /* Estilos para mobile */
+  @media (max-width: 768px) {
+    section {
+        flex-direction: column; /* Cambiar a columna */
+        text-align: center;
+  
+    }
+    .mage, .cont {
+        width: 100%; /* Ocupa el 100% del espacio */
+        height: auto; /* Ajustar la altura automáticamente */
+        justify-content: center; /* Centrar horizontalmente */
+    }
+    .MapImg {
+        max-width: 100%;
+        height: auto; /* Mantener proporciones */
+        margin: auto;
+    }
+    .titel, .lirel {
+        text-align: center; /* Centrar texto en móviles */
+    }
+    .images {
+        flex-direction: column; /* Apilar los iconos */
+        align-items: center; /* Centrar los iconos */
+    }
+    .pkg {
+        margin: 10px 0; /* Espacio entre iconos */
+    }
+    .nav-arrow {
+        width: 30px;
+        height: 30px;
+    }
+    .nav-arrowLeft {
+        width: 30px;
+        height: 30px;
+        right: 60px;
+    }
+    .subtitle{
+        font-size: 1em;
+    }
+    .parrafo { font-size: 60%; }
+}
+
+</style>
+</head>
+<body>
+ <section class="section sectionb" id="section1">
+    <h1 class="raleway-titles textoDorado">Top 20 Fortnite Creative Maps by Franite</h1>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+ </section>
+ <section class="section light sectiono" id="section2">
+    <div class="mage">
+        <a href="#"><img src="./img/Fornite Pictures/Standoff Call of Duty.png" alt="Standoff Picture" class="MapImg"></a>
+    </div>
+    <div class="cont">
+        <div class="titel">
+            <a href="#" class="NSA"><h1> Resistance - FFA - Zero Build</h1></a>
+        </div>
+        <div class="lirel">
+            <p class="content-style mcode">
+                <a href="#" class="NSA subtitle">MapCode: 6892-6367-1526 / Click to copy</a>
+            </p>
+            <p class="parrafo">
+                Resistance es un mapa de zero construccion basado en el mitico mapa Standoff de Modern Warfare 3, encontramos esta version de fortnite creativo.
+                <br>
+                Ideal para jugar todos contra todos, reapariciones infinitas y ejecutar parkour en casi todo el mapa.
+
+                
+            </p>
+        </div>
+
+    </div>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+</section>
+ <section class="section light sectionbl" id="section3">
+    <div class="mage">
+        <a href="#"><img src="./img/Fornite Pictures/Lagoon Zone Wars.png" alt="Standoff Picture" class="MapImg"></a>
+    </div>
+    <div class="cont">
+        <div class="titel">
+            <a href="#" class="NSA"><h1> Lago Zone Wars</h1></a>
+        </div>
+        <div class="lirel">
+            <p class="content-style mcode">
+                <a href="#" class="NSA subtitle">MapCode: 4806-2201-8213 - Click to copy</a>
+            </p>
+            <p class="parrafo">
+                Lago Zone Wars, es una construccion pequeña de naturaleza, fue de las primeras creaciones del legendario Franite.
+                <br>
+                Disfruta sus 5 rondas jugando con trampas y peces apestosos.
+            </p>
+        </div>
+    </div>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+</section>
+ <section class="section light sectionb" id="section4">
+    <div class="mage">
+        <a href="#"><img src="./img/Fornite Pictures/Capture the flag Storage.PNG" alt="Standoff Picture" class="MapImg"></a>
+    </div>
+    <div class="cont">
+        <div class="titel">
+            <a href="#" class="NSA"><h1> Factory Fire - Capture the flag</h1></a>
+        </div>
+        <div class="lirel">
+            <p class="content-style mcode">
+                <a href="#" class="NSA subtitle">MapCode: 0463-5779-0801 - Click to copy</a>
+            </p>
+            <p class="parrafo">
+                Factory Fire es un mapa de captura la bandera pequeño donde tendras que ser muy habil para no ser eliminado junto con ella.
+                <br>
+                ¿Que tal te va en el parkour? Lo necesitarás.
+            </p>
+        </div>
+    </div>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+</section>
+ <section class="section light sectiong" id="section5">
+    <div class="mage">
+        <a href="#"><img src="./img/Fornite Pictures/Guardian Halo Zone Wars.jpg" alt="Standoff Picture" class="MapImg"></a>
+    </div>
+    <div class="cont">
+        <div class="titel">
+            <a href="#" class="NSA"><h1>Solar Sentinel - FFA - Zero Build</h1></a>
+        </div>
+        <div class="lirel">
+            <p class="content-style mcode">
+                <a href="#" class="NSA subtitle">MapCode: 3759-5560-4246 - Click to copy</a>
+            </p>
+            <p class="parrafo">
+                Futurista, armas poco comunes y épicas, zero construccion, todos contra todos, la combinación perfecta entre naturaleza y tecnología
+                <br>
+                Solar Sentinel, Solar Punk, Guardian... Te suena? Recordando el 2012
+            </p>
+        </div>
+    </div>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+</section>
+ <section class="section light sectionbl" id="section6">
+    <div class="mage">
+        <a href="#"><img src="./img/Fornite Pictures/Overtake 2 teams.png" alt="Standoff Picture" class="MapImg"></a>
+    </div>
+    <div class="cont">
+        <div class="titel">
+            <a href="#" class="NSA"><h1>Overtake 2 Teams 2.0</h1></a>
+        </div>
+        <div class="lirel">
+            <p class="content-style mcode">
+                <a href="#" class="NSA subtitle">MapCode: 4122-8830-5768 - Click to copy</a>
+            </p>
+            <p class="parrafo">
+                Mapa por equipos, 3vs3, 4vs4, armas legendarias, diversos accesorios, campo abierto y horas de diversión
+                <br>
+                Entran jugadores, salen depredadores.
+            </p>
+        </div>
+    </div>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+</section>
+ <section class="section light sectiono" id="section7">
+    <div class="mage">
+        <a href="#" ><img src="./img/Fornite Pictures/FraniteLand p1 rezized.png" alt="Paradise Picture" class="MapImg"></a>
+     </div>
+     <div class="cont">
+          <div class="titel">
+              <a href="#" class="NSA"><h1>Franiteland Zone Wars - FFA</h1></a>
+          </div>
+          <div class="lirel">
+              <p class="content-style mcode">
+                  <a href="#" class="NSA subtitle">MapCode: 5033-9925-9758  - Click to copy</a>
+              </p>
+              <p class="parrafo">
+                  Cada franite-fan debe visitar franite-land. Armas legendarias, 5 rondas, todos contra todos, que comience el desafío.
+                  <br>
+                   ¿Nueva York? ¿San Francisco? ¿Qué es eso? Inspirado en metropolis y pisos picados, ¿Podrás encontrar el easter egg?
+              </p>
+          </div>
+          </div>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+</section>
+ <section class="section light sectionbl" id="section8">
+       <div class="mage">
+          <a href="#" ><img src="./img/Fornite Pictures/Paradise Zone Wars.jpg" alt="Paradise Picture" class="MapImg"></a>
+       </div>
+       <div class="cont">
+            <div class="titel">
+                <a href="#" class="NSA"><h1>Paradise - Zone Wars</h1></a>
+            </div>
+            <div class="lirel">
+                <p class="content-style mcode">
+                    <a href="#" class="NSA subtitle">MapCode: 5483-5332-6416  - Click to copy</a>
+                </p>
+                <p class="parrafo">
+                    Pequeño pueblo en la costa del pacífico, digno de tener un pedazo virtual de el.
+                    <br>
+                    5 rondas, el parque es el battlefield, 
+                </p>
+            </div>
+            </div>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+ </section>
+   <section class="section light sectionpur" id="section9">
+        <div class="mage">
+            <a href="#" ><img src="./img/Fornite Pictures/Capture the flag Aquazone.png" alt="Aquazone Picture" class="MapImg"></a>
+        </div>
+        <div class="cont">
+            <div class="titel">
+                <a href="#" class="NSA"><h1>Aqua zone - Capture the flag</h1></a>
+            </div>
+            <div class="lirel">
+                <p class="content-style mcode">
+                    <a href="#" class="NSA subtitle">MapCode: 0366-7137-5446 - Click to copy</a>
+                </p>
+                <p class="parrafo">
+                    Pequeño pueblo histórico, digno de tener un pedazo virtual de el.
+                    <br>
+                    Variedad de armas, 5 rondas, todos contra todos, encuentra el easter egg.
+                </p>
+            </div>
+        </div>
+        <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+        <div class="nav-arrow right" onclick="navigate(1)"></div>
+    </section>
+   <section class="section light sectiono" id="section10">
+        <div class="mage">
+            <a href="#" ><img src="./img/Fornite Pictures/Cabanas Zone Wars.png" alt="Aquazone Picture" class="MapImg"></a>
+        </div>
+        <div class="cont">
+            <div class="titel">
+                <a href="#" class="NSA"><h1>Cabañas - Gun game</h1></a>
+            </div>
+            <div class="lirel">
+                <p class="content-style mcode">
+                    <a href="#" class="NSA subtitle">MapCode: 2190-4075-2373  - Click to copy</a>
+                </p>
+                <p class="parrafo">
+                    Pequeño pueblo histórico, digno de tener un pedazo virtual de el.
+                    <br>
+                    Variedad de armas, 5 rondas, todos contra todos, encuentra el easter egg.
+                </p>
+            </div>
+        </div>
+        <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+        <div class="nav-arrow right" onclick="navigate(1)"></div>
+    </section>
+   <section class="section light sectiong" id="section11">
+        <div class="mage">
+            <a href="#" ><img src="./img/Fornite Pictures/Selvatic Zone Wars & Boxfight rezized.png" alt="Aquazone Picture" class="MapImg"></a>
+        </div>
+        <div class="cont">
+            <div class="titel">
+                <a href="#" class="NSA"><h1>Selvatic Zone Wars & Boxfight</h1></a>
+            </div>
+            <div class="lirel">
+                <p class="content-style mcode">
+                    <a href="#" class="NSA subtitle">MapCode: 9653-3908-4755  - Click to copy</a>
+                </p>
+                <p class="parrafo">
+                    Pequeño pueblo histórico, digno de tener un pedazo virtual de el.
+                    <br>
+                    Variedad de armas, 5 rondas, todos contra todos, encuentra el easter egg.
+                </p>
+            </div>
+        </div>
+        <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+        <div class="nav-arrow right" onclick="navigate(1)"></div>
+    </section>
+   <section class="section light sectionb" id="section12">
+        <div class="mage">
+            <a href="#" ><img src="./img/Fornite Pictures/Hangar Gun Game p1 rezized.png" alt="Aquazone Picture" class="MapImg"></a>
+        </div>
+        <div class="cont">
+            <div class="titel">
+                <a href="#" class="NSA"><h1>Hangar - Gun game</h1></a>
+            </div>
+            <div class="lirel">
+                <p class="content-style mcode">
+                    <a href="#" class="NSA subtitle">MapCode: 7257-0635-0845 - Click to copy</a>
+                </p>
+                <p class="parrafo">
+                    Pequeño pueblo histórico, digno de tener un pedazo virtual de el.
+                    <br>
+                    Variedad de armas, 5 rondas, todos contra todos, encuentra el easter egg.
+                </p>
+            </div>
+        </div>
+        <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+        <div class="nav-arrow right" onclick="navigate(1)"></div>
+    </section>
+   <section class="section light sectionbl" id="section13">
+        <div class="mage">
+            <a href="#" ><img src="./img/Fornite Pictures/Boxfight Colors and Zone Wars p2 rezized.png" alt="Aquazone Picture" class="MapImg"></a>
+        </div>
+        <div class="cont">
+            <div class="titel">
+                <a href="#" class="NSA"><h1>Boxfight colors & Zone Wars</h1></a>
+            </div>
+            <div class="lirel">
+                <p class="content-style mcode">
+                    <a href="#" class="NSA subtitle">MapCode: 9764-6418-3811 - Click to copy</a>
+                </p>
+                <p class="parrafo">
+                    Pequeño pueblo histórico, digno de tener un pedazo virtual de el.
+                    <br>
+                    Variedad de armas, 5 rondas, todos contra todos, encuentra el easter egg.
+                </p>
+            </div>
+        </div>
+        <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+        <div class="nav-arrow right" onclick="navigate(1)"></div>
+    </section>
+   <section class="section light sectiong" id="section13">
+        <div class="mage">
+            <a href="#" ><img src="./img/Fornite Pictures/Teams Boxfight Franite p2 rezized.png" alt="Aquazone Picture" class="MapImg"></a>
+        </div>
+        <div class="cont">
+            <div class="titel">
+                <a href="#" class="NSA"><h1>Teams - Box fight - Franite</h1></a>
+            </div>
+            <div class="lirel">
+                <p class="content-style mcode">
+                    <a href="#" class="NSA subtitle">MapCode: 6670-2368-5555  - Click to copy</a>
+                </p>
+                <p class="parrafo">
+                    Pequeño pueblo histórico, digno de tener un pedazo virtual de el.
+                    <br>
+                    Variedad de armas, 5 rondas, todos contra todos, encuentra el easter egg.
+                </p>
+            </div>
+        </div>
+        <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+        <div class="nav-arrow right" onclick="navigate(1)"></div>
+    </section>
+ <section class="section light sectionb" id="section14">
+    <div class="titel purple-over"><h1>Contact</h1></div>
+    <div class="cont">
+      <div class="images">
+        <div class="pkg">
+          <a class="aimg" href="https://discord.gg/C8US4bWC"><img src="./img/discord-icon.png" id="DiscImg"></a>
+          <p>Join the community</p>
+        </div>
+        <div class="pkg">
+          <a class="aimg" href="https://www.tiktok.com/@franitee?_t=8qkQwr7P0Z3&_r=1"><img src="./img/tik-tok-icon.png" id="TikImg"></a>
+          <p>Watch some clips</p>
+        </div>
+      </div>
+    </div>
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+</section>
+<section class="section light sectionbeige" id="section14">
+    <div class="title"><h1 class="raleway-titles ">More maps comming soon...</h1></div>
+
+    <div class="nav-arrowLeft" onclick="navigate(-1)"></div>
+    <div class="nav-arrow right" onclick="navigate(1)"></div>
+</section>
+  <script>
+    let currentSection = 0;
+    const sections = document.querySelectorAll('section');
+
+    function navigate(direction) {
+    currentSection += direction;
+    if (currentSection < 0) {
+      currentSection = 0;
+    } else if (currentSection >= sections.length) {
+      currentSection = sections.length - 1;
+    }
+    sections[currentSection].scrollIntoView({ behavior: 'auto' });
+  }
+    document.querySelectorAll('.mcode a').forEach(el => {
+      el.addEventListener('click', function(e) {
+        e.preventDefault();
+        const code = this.textContent.split(' ')[1]; // Obtiene el código de mapa
+        navigator.clipboard.writeText(code).then(() => {
+            Swal.fire({
+                icon: 'success',
+                title: '¡Código copiado!',
+                text: 'Código: ' + code,
+                confirmButtonText: 'Aceptar'
+            });
+        });
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
