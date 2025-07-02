@@ -22,3 +22,19 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 - A todos los que han contribuido a este proyecto.
 
 ¡Explora, diviértete y comparte tus mapas favoritos de Fortnite con Franite!
+
+<p align="left">
+
+  <img src="./img/Fornite Pictures/Boxfight Colors and Zone Wars p1.png" width="400" alt="Mapa 1">
+  <br>
+  Boxfight Colors and Zone Wars.
+  <br>
+  <img src="img/Fornite Pictures/Capture the flag Storage.jpg" width="400" alt="Mapa 2">
+  <br>
+  Capture the flag - Storage
+  <br>
+  <img src="img/Fornite Pictures/Standoff Call of Duty.jpg" width="400" alt="Mapa 3">
+  <br>
+  Standoff Call Of Duty
+  <!-- Agrega más imágenes según existan en la carpeta img -->
+</p>
