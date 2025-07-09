@@ -4,7 +4,7 @@ Proyecto dedicado a la promoción de mapas creativos en Fortnite. Aquí puedes e
 
 ## Enlace del Proyecto
 
-Visita la página: [Fornite Maps by Franite](https://fcancinos.github.io/franite/)
+Visita la página: [Fornite Maps by Franite](https://fcancinos.github.io/fornite-maps/)
 
 ## Características
 
